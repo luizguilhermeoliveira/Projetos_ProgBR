@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 15px;
+    background-color: #ff6b28;
+    text-align: center;
+}
+#logo{
+    width: 170px;
+}
+
+#Bolo-Img{
+    height: 400px;
+    background-image: url('./assets/hero_bolo.jpg');
+    background-size: cover;
+    /* tentar escrever em shorthand o background */
+}
