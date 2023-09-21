@@ -9,25 +9,35 @@
     src: url('./assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 
-h1,p{
-    margin: 40px 0;
-}
-p{
+p, a{
     font-size: 20px;
+    margin: 20px 0 0 0;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    font-size: 40px;
 }
 
 header{
     background-color:  #333;
     color: white;
     padding: 13px;
-    font-size: 13px;
+    font-size: 20px;
     border-bottom: solid 5px #fd8a24;
     text-align: center;
 }
 
 main{
     width: 65%;
-    margin: 30px auto;
+    margin: 40px auto;
+}
+
+.space{
+    margin: 40px 0 0 0;
 }
 
 #headline{
@@ -51,5 +61,21 @@ main{
 
 .link-rede{
     width: 30px;
-    margin: 0 15px 15px 0;
+    margin: 40px 15px 15px 0;
+}
+
+#content{
+    width: 80%;
+    margin: auto;
+}
+
+.link-text{
+    color: #fd8a24;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+figcaption{
+    font-size: 12px;
+    font-weight: 300px;
 }
