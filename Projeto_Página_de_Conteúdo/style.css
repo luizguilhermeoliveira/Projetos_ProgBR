@@ -79,3 +79,8 @@ figcaption{
     font-size: 12px;
     font-weight: 300px;
 }
+
+footer{
+    height: 63px;
+    background-color: #333;
+}
