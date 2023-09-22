@@ -10,6 +10,10 @@
 h1, h2{
     color: #ff6b28;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 
 header{
     padding: 15px;
@@ -18,6 +22,9 @@ header{
 }
 #logo{
     width: 170px;
+}
+#logo:hover{
+    width: 175px;
 }
 
 #Bolo-Img{
@@ -59,10 +66,8 @@ li,p{
 
 #buy{
     background-color: #ff6b28;
-    color: white;
     padding: 10px;
     border-radius: 10px;
-    text-decoration: none;
     font-weight: 700;
 }
 #buy:hover{
@@ -78,4 +83,14 @@ li,p{
 }
 #ins:hover{
     cursor: url('./assets/cursor_intrucoes.png'), pointer; 
+}
+
+footer{
+    background-color: #ff6b28;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+#p-f{
+    margin: 0;
 }
