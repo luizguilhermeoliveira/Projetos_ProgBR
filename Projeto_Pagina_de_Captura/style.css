@@ -1,4 +1,159 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Rubik', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.position-all{
+    width: 70%;
+    margin: auto;
+    /* background-color: white; */
+    box-sizing: border-box;
+}
+/* cabeçalho */
+
+header{
+    background-color: #39A6C4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* conteudo principal  */
+
+main{
+    background: url(./assets/people.jpg) no-repeat;
+    background-size: cover;
+    padding: 15px;
+    overflow: auto;
+}
+
+#box-content{
+    width: 30%;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.593);
+    padding: 15px;
+    
+}
+
+#title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.inp{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: none;
+}
+
+.inp:focus-visible{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.mouse:hover{
+    cursor: pointer;
+}
+
+#sel{
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    background: white url(./assets/arrow.jpg) 95.5% 50% no-repeat;
+}
+
+#ins{
+    background-color: #39A6C4;
+    color: white;
+    font-weight: 600;
+}
+
+ins:hover{
+    background-color: #39b2c4;
+}
+
+/* footer */
+
+footer{
+    background-color: #2A2C2B;
+    padding: 30px;
+    color: white;
+    overflow: auto;
+}
+
+#conteiner-desc{
+    text-align: center;
+}
+
+img{
+    height: 290px;
+    display: inline-block;
+}
+
+#box-desc{
+    display: inline-block;
+    width: 263px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+@media screen and (min-width: 1591px){
+    #box-content{
+        height: 550px;
+        position: relative;
+    }
+
+    #title{
+        font-size: 25px;
+    }
+
+    #text{
+        font-size: 22px;
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+        width: calc(100% - 30px); 
+    }
+
+    form{
+        position: absolute;
+        bottom: 5px; 
+        width: calc(100% - 30px); 
+    }
+}
+
+@media screen and (max-width: 860px){
+    body{
+        position: absolute;
+        top: 50%;
+        transform: translatey(-50%);
+    }
+
+    .position-all{
+        width: 100%;
+    }
+    
+    #box-content{
+        float: none;
+        margin: auto;
+        width: 90%;
+    }
+    #box-desc{
+        display: inline-block;
+        width: 263px;
+        margin-left: 0px;
+        text-align: justify;
+    }
+
+    #box-desc>h2{
+        text-align: center;
+    }
 }

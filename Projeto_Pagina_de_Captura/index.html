@@ -4,41 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Página de Captura</title>
 </head>
 <body>
-    <header>
+    <header class="position-all">
         <h2>PARTICIPE DO WORKSHOP QUE VAI MUDAR O SEU NEGÓCIO</h2>
     </header>
-    <main>
-        <article>
-            <h1>GARANTA O SEU LUGAR NO WORKSHOP DO MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE</h1>
-            <p>Neste evento, voce vai aprender todos os segredos que vao te fgazer ser um empreendedor de sucesso sem precisar contar com a sorte.</p>
+    <main class="position-all">
+        <article id="box-content">
+            <h1 id="title">GARANTA O SEU LUGAR NO WORKSHOP DO MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE</h1> <br>
+            <p id="text">Neste evento, voce vai aprender todos os segredos que vao te fazer ser um empreendedor de sucesso sem precisar contar com a sorte.</p> <br>
             <form method="get" action="">
-                <input type="text" name="nome" placeholder="Nome"> <br>
-                <input type="email" name="email" placeholder="Email"> <br>
-                <select name="estado">
+                <input type="text" name="nome" placeholder="Nome" class="inp"> <br>
+                <input type="email" name="email" placeholder="Email" class="inp"> <br>
+                <select name="estado" id="sel" class="inp mouse">
                     <option value="RJ">Rio de Janeiro</option>
                     <option value="SP">São Paulo</option>
                     <option value="MG">Minas Gerais</option>
                     <option value="ES">Espirito Santo</option>
                 </select>
+                <input type="submit" value="INSCREVA-SE" class="inp mouse" id="ins">
             </form>
-            <input type="submit" value="INSCREVA-SE">
         </article>
     </main>
-    <footer>
-        <img src="./assets/face.jpg" alt="Foto do palestrante">
-        <section>
-            <h2>O palestrante</h2>
-            <p>Carlos Fontana é conhecido por dar palestras que abalm a estrutura do marketing tradicional.
-                Prepare-se para sir do evento com uma nova visão do que é possivel ser feito para o seu negocio
-                decolar.
-                <br><br>
-                Formado em Marketing pela Universidade XYZ e fundador da MArkUp, a empresa vencedora dos ultimos
-                5 Premios MarketingBr.
-            </p>
-        </section>
+    <footer class="position-all">
+        <div id="conteiner-desc">
+            <img src="./assets/face.jpg" alt="Foto do palestrante">
+            <article id="box-desc">
+                <h2>O palestrante</h2> <br>
+                <p>Carlos Fontana é conhecido por dar palestras que abalm a estrutura do marketing tradicional.
+                    Prepare-se para sir do evento com uma nova visão do que é possivel ser feito para o seu negocio
+                    decolar.
+                    <br><br>
+                    Formado em Marketing pela Universidade XYZ e fundador da MArkUp, a empresa vencedora dos ultimos
+                    5 Premios MarketingBr.
+                </p>
+            </article>
+        </div>
     </footer>
 </body>
 </html>
